@@ -1,9 +1,11 @@
-include "node_modules/circomlib/circuits/escalarmulany.circom";
-include "node_modules/circomlib/circuits/babyjub.circom";
-include "node_modules/circomlib/circuits/bitify.circom";
-include "node_modules/circomlib/circuits/comparators.circom";
-include "node_modules/circomlib/circuits/compconstant.circom";
-include "node_modules/circomlib/circuits/poseidon.circom";
+pragma circom 2.0.5;
+
+include "../node_modules/circomlib/circuits/escalarmulany.circom";
+include "../node_modules/circomlib/circuits/babyjub.circom";
+include "../node_modules/circomlib/circuits/bitify.circom";
+include "../node_modules/circomlib/circuits/comparators.circom";
+include "../node_modules/circomlib/circuits/compconstant.circom";
+include "../node_modules/circomlib/circuits/poseidon.circom";
 
 template decrypt() {
     signal input c1_x;
