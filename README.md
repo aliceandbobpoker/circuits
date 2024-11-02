@@ -6,4 +6,4 @@ There are six circuits used in the protocol:
 
 ### Compile circuit
 
-circom add.circom --r1cs --sym --wasm
+```circom add.circom --r1cs --sym --wasm```
